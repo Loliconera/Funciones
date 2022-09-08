@@ -10,17 +10,17 @@ public class Main
         miCoche.AñadirPuerta();
         miCoche.AñadirPuerta();
         miCoche.AñadirPuerta();
-        System.out.println("El numero de puertas de mi coche es: " + miCoche.puertas);
+        System.out.println("El numero de puertas es: " + miCoche.puertas);
     }
-    public static int suma(int a, int b, int c) {
+    public static int suma(int a, int b, int c)
+    {
         return a + b + c;
     }
 }
-
     class Coche {
-
     public int puertas = 0;
-    public void AñadirPuerta() {
+    public void AñadirPuerta()
+    {
         this.puertas++;
     }
 }
